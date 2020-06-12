@@ -17,8 +17,6 @@ module.exports = {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
     // ts无法识别requires；所以不检测requires语法
-    "@typescript-eslint/no-var-requires": 0,
-    //关闭对this的别名的限制
-    "@typescript-eslint/no-this-alias": 0
+    "@typescript-eslint/no-var-requires": 0
   }
 };
